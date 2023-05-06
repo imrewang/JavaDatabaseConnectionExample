@@ -14,7 +14,7 @@ public class DatabaseUtil {
     String url = "jdbc:mysql://localhost:3306/homework?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8";
     //url - 格式为 jdbc:subprotocol:subname的数据库URL
     String username = "root";
-    String password = "123zxcvbnm";
+    String password = "你的root的密码";
 
     // 通过反射机制讲jdbc的驱动jar包 动态的加载到JVM
     static {
